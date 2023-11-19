@@ -54,4 +54,41 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-/* background image css */
+/* header background color and location of items */
+header {
+	background-color: royalblue;
+	position: block;
+	top: 0;
+	width: 100%;
+	padding: 0%;
+	z-index: auto;
+	text-align: center;
+}
+
+header h1 {
+	padding: 20px;
+	font-size: 36px;
+}
+
+
+/* background image css, takes up whole width */
+#full-width-image img {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 0;
+	padding: 0%;
+}
+
+/* Navigation bar items */
+.main-nav nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+.main-nav nav ul li {
+	display: inline;
+	margin-right: 40px;
+}
