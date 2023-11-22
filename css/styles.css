@@ -56,13 +56,13 @@ body {
 
 /* header background color and location of items */
 header {
-	background-color: rgba(0, 0, 0, 0.850);
-	position: block;
-	top: 0;
-	width: 100%;
-	padding: 0%;
-	z-index: auto;
-	text-align: center;
+display: flex;
+justify-content: space-between; 
+align-items: center;
+padding: 0;
+margin: 0;
+background-color: rgba(0, 0, 0, 0.85);
+
 }
 
 header h1 {
