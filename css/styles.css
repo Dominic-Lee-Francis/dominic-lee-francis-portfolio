@@ -73,7 +73,7 @@ header h1 {
 	color: white;
 }
 
-ul {
+header ul {
 	display: flex;
 	justify-content: right;
 	align-items: center;
@@ -83,7 +83,7 @@ ul {
 
 }
 
-li {
+header li {
 	/* adds a space between icons */
 	margin-right: 1em;
 
@@ -97,13 +97,13 @@ li {
 }
 
 #linkedIn:hover {
-	/* adds the LinkedIn blue background color when hovering */
+	/* adds LinkedIn blue background color when hovering */
 	background-color: rgb(0, 119, 181);
 	/* rounds the corners when hovering */
 	border-radius: 5px;
 }
 
-/* background image css, takes up whole width */
+/*  ! background image css, takes up whole width */
 #fullWidthImage img {
 	width: 100%;
 	height: auto;
@@ -112,6 +112,7 @@ li {
 	padding: 0%;
 }
 
+/* change fundamentals of about me section here */
 .aboutMe {
 	background-color: rgba(0, 0, 0, 0.8);
 	color: rgba(255, 255, 255, 0.875);
@@ -122,6 +123,13 @@ li {
 	align-items: center;
 }
 
+/* change font of h2 in about me section here */
+.aboutMe h2 {
+	font-family: 'Kanit', sans-serif;
+}
+
+/* ! stops about me section touching the borders */
 .aboutMeP {
 	width: 80%;
 }
+
