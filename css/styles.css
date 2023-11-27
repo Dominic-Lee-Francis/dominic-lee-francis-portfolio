@@ -175,6 +175,7 @@ header li {
 	flex-direction: row;
 	flex-wrap: wrap;
 	text-align: center;
+	gap: 1em;
 
 }
 
@@ -182,7 +183,6 @@ header li {
 	background-color: grey;
 	height: 150px;
 	width: 150px;
-	margin-top: 10px;
 	border: solid;
 	border-width: 2px;
 	border-color: rgba(255, 255, 255, 0.875);;
@@ -192,7 +192,6 @@ header li {
 	background-color: grey;
 	height: 150px;
 	width: 150px;
-	margin-top: 10px;
 	border: solid;
 	border-width: 2px;
 	border-color: rgba(255, 255, 255, 0.875);;
@@ -202,7 +201,6 @@ header li {
 	background-color: grey;
 	height: 150px;
 	width: 150px;
-	margin-top: 10px;
 	border: solid;
 	border-width: 2px;
 	border-color: rgba(255, 255, 255, 0.875);;
