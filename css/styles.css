@@ -112,23 +112,16 @@ li {
 	padding: 0%;
 }
 
-.projects {
-	display: flex;
-	justify-content: space-between; 
-	align-items: center;
-	padding: 0;
-	margin: 0;
-	background-color: rgba(0, 0, 0, 0.85);
+.aboutMe {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: rgba(255, 255, 255, 0.875);
 	width: 100%;
-	height: 400px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.projects p {
-	color: white;
-	display: inline;
-	padding: 30px;
-	border-color: white;
-	border-style: solid;
-	border-width: 1px;
-	margin: 20px;
+.aboutMeP {
+	width: 80%;
 }
