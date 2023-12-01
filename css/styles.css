@@ -232,13 +232,75 @@ header li {
 	background-color: rgba(0, 0, 0, 0.8);
 	width: 100%;
 	height: auto;
-	padding-top: 20px;
-	padding-bottom: 40px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	color: rgba(255, 255, 255, 0.875);
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	font-family: 'Kanit', sans-serif;
+	flex-wrap: nowrap;
+}
+
+.black-space-left {
+	align-self: flex-start;
+	width: 10%;
+	height: 100%;
+	background-color: red;
+}
+
+.personal-info {
+	align-self: auto;
+	/* width: 60%; */
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 2em;
+	flex-wrap: wrap;
+}
+
+.personal-info-blank-top {
+	width: auto;
+	height: 10%;
+}
+
+.hiking {
+	display: flex;
+	align-items: center;
+	gap: 2em;
+}
+
+.personal-info svg {
+	width: 4em;
+}
+
+.football {
+	display: flex;
+	align-items: center;
+	gap: 2em;
+}
+
+.running {
+	display: flex;
+	align-items: center;
+	gap: 2em;
+}
+
+.traveling {
+	display: flex;
+	align-items: center;
+	gap: 2em;	
+}
+
+.personal-info-blank-bottom {
+	width: auto;
+	height: 10%;
+}
+
+.img-right {
+	align-self: flex-end;
+	width: 40em;
+	height: 100%;
 }
 
 footer {
