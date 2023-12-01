@@ -138,6 +138,17 @@ header li {
 	width: 80%;
 }
 
+/* adds an underline and changes link colour back to white */
+.aboutMeP a {
+	color: rgba(255, 255, 255, 0.875);
+	text-decoration: underline;
+}
+
+/* adds a pink hover effect */
+.aboutMeP a:hover {
+	color: hotpink;
+}
+
 .projectsH2 {
 	background-color: rgba(0, 0, 0, 0.85);
 	width: 100%;
@@ -204,4 +215,11 @@ header li {
 
 .project3 {
 	background-color: grey;
+}
+
+footer {
+	background-color: rgba(0, 0, 0, 0.85);
+	color: rgba(255, 255, 255, 0.875);
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
