@@ -206,7 +206,18 @@ header li {
 	background-size: cover;
 	filter: brightness(80%);
 	color: black;
- 
+}
+
+.project1 a {
+	color: black;
+}
+
+.project1 a:hover {
+	color: hotpink;
+}
+
+.project1 a:visited {
+	color: black;
 }
 
 .project2 {
@@ -215,6 +226,19 @@ header li {
 
 .project3 {
 	background-color: grey;
+}
+
+.personal {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	color: rgba(255, 255, 255, 0.875);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Kanit', sans-serif;
 }
 
 footer {
