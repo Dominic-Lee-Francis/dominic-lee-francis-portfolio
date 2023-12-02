@@ -180,6 +180,7 @@ header li {
 	font-family: 'Kanit', sans-serif;
 }
 
+/* creates flex around boxes within the project flex */
 .projectsBoxes {
 	width: 90%;
 	display: flex;
@@ -191,6 +192,7 @@ header li {
 
 }
 
+/* alters the individual boxes in project section */
 .project-box {
 	box-shadow: 0px 0px 10px 2px grey;
 	height: 150px;
@@ -201,6 +203,7 @@ header li {
 	text-decoration: underline;
 }
 
+/* smiley grid background, lowered brightness */
 .project1 {
 	background-image: url(/img/smiley.png);
 	background-size: cover;
@@ -208,6 +211,8 @@ header li {
 	color: black;
 }
 
+
+/* change anchor tag for project1 */
 .project1 a {
 	color: black;
 }
@@ -220,14 +225,18 @@ header li {
 	color: black;
 }
 
+/* placeholder */
 .project2 {
 	background-color: grey;
 }
 
+/* placeholder */
 .project3 {
 	background-color: grey;
 }
 
+
+/* main flex box for personal section */
 .personal {
 	background-color: rgba(0, 0, 0, 0.8);
 	width: 100%;
@@ -240,6 +249,7 @@ header li {
 	flex-wrap: nowrap;
 }
 
+/* decided width of the blank space, acts as padding */
 .black-space-left {
 	align-self: flex-start;
 	width: 10%;
@@ -247,6 +257,7 @@ header li {
 	background-color: red;
 }
 
+/* CHANGE THIS TO A GRID */
 .personal-info {
 	align-self: auto;
 	/* width: 60%; */
@@ -259,6 +270,7 @@ header li {
 	flex-wrap: wrap;
 }
 
+/* POSSIBLY REMOVE */
 .personal-info-blank-top {
 	width: auto;
 	height: 10%;
@@ -270,6 +282,7 @@ header li {
 	gap: 2em;
 }
 
+/* change size of SVG images */
 .personal-info svg {
 	width: 4em;
 }
@@ -297,12 +310,14 @@ header li {
 	height: 10%;
 }
 
+/* change size of image */
 .img-right {
 	align-self: flex-end;
 	width: 40em;
 	height: 100%;
 }
 
+/* alter footer css */
 footer {
 	background-color: rgba(0, 0, 0, 0.85);
 	color: rgba(255, 255, 255, 0.875);
