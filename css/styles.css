@@ -50,6 +50,58 @@ table {
 
 /* Above this point is the Eric Meyer Reset, only edit below this point */
 
+/* sets up the animation of the cursor. it rotates in a circle and grows and shrinks in the middle */
+@keyframes rotate {
+    /* the 0deg to 360deg causes the circle */
+    from {
+        rotate: 0deg;
+    }
+    /* this is the grow/shrink effect */
+    50% {
+        scale: 1 1.5;
+    }
+
+    to {
+        rotate: 360deg;
+    }
+}
+
+/* circle that follows users cursor */
+#cursor {
+    /* sets the height, quite large because if the cursor loses the circle then it gets stuck */
+    height: 700px;
+    /* a-r just sets width the same as height */
+    aspect-ratio: 1;
+    /* possibly change to fixed */
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    /* adds a circle */
+    border-radius: 50%;
+    /* change the 2 colours of the blur */
+    background: linear-gradient(
+        to right, 
+        aquamarine,
+        mediumpurple
+    );
+    /* adds the animation we made above */
+    animation: rotate 20s infinite;
+
+    /* /* REMOVED FOR THE BLUE EFFECT, might put back, depends on how it performs  */
+    filter: blur(200px); 
+}
+
+/* makes the div the whole height and width of the screen and then blurs ir  */
+#blur-effect-for-cursor {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* z-index is the stack level of the div */
+    z-index: 2;
+    backdrop-filter: blur(200px);
+}
+
 body {
 	font-family: 'Roboto', sans-serif;
 }
